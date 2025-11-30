@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <StartupObject>GameHelper.Program</StartupObject>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Authors>gamehelper</Authors>
@@ -25,8 +25,9 @@
   <ItemGroup>
     <PackageReference Include="ClickableTransparentOverlay" Version="11.1.0" />
     <PackageReference Include="Coroutine" Version="2.1.5" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="ProcessMemoryUtilities.Net" Version="1.3.4" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
   </ItemGroup>
 
   <ItemGroup>
